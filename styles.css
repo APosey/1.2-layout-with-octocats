@@ -1,0 +1,59 @@
+
+.octocat {
+  border: solid;
+  border-color:   lightgrey;
+  border-radius: 3px;
+  border-width: thin;
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+
+img{
+  height: 0 auto;
+  max-width: 33%;
+ border: solid;
+  border-color: lightgrey;
+  border-radius: 3px;
+  border-width: thin;
+  display: inline-block;
+}
+
+.octocat > a{
+  display: inline-block;
+  float: left;
+}
+
+.image-footer{
+  border-bottom: 2px;
+  display: inline-block;
+}
+
+.image-footer:before{
+  content:"#";
+  border: solid; transparent;
+  display: block;
+  border-top-color:grey;
+  position: absolute;
+}
+
+.image-number{
+  float: left;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.image-caption{
+  display: inline-block;
+text-align: right;
+}
+
+.authors, .authors li, .authors a{
+  display: inline-block;
+}
+
+.authors{
+  width: 28px;
+  height: auto;
+  display: inline-block;
+}
